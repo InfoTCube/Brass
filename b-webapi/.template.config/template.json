@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Tymoteusz Marzec",
+    "classifications": [ "Web", "WebAPI" ],
+    "identity": "Brass.WebAPI",
+    "name": "Brass Web API",
+    "shortName": "b-webapi",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }

@@ -49,8 +49,6 @@ public class App
             
             var apiMethod = new Tuple<string, string>(url, req.HttpMethod);
 
-            System.Console.WriteLine(url);
-
             if(!endpoints.ContainsKey(apiMethod))
             {
                 url = url.Contains('/') ? url.Remove(url.LastIndexOf('/')) : url;
