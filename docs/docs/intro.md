@@ -16,14 +16,18 @@ Get started by **creating a new web API**.
 
 ## Generate a new web API project
 
-//How to create new project
+Create new web API project:
+
+```bash
+dotnet new b-webapi -o myApp
+```
 
 ## Run your API
 
 Run the API:
 
 ```bash
-cd my-app
+cd myApp
 dotnet watch run
 ```
 
